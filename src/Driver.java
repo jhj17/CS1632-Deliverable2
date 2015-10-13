@@ -114,9 +114,10 @@ class Driver implements Drivers {
    */
   public String toString(String dest1, String dest2, String street) {
     String outputStr = "";
+    int id = getDriverId();
     
     // Driver x heading from a to b via c.
-    outputStr = "Driver " + getDriverId() + " heading from " + 
+    outputStr = "Driver " + id + " heading from " + 
         dest1 + " to " + dest2 + " via " + street;
       
     return outputStr;
