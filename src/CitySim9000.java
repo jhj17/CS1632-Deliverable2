@@ -1,3 +1,10 @@
+/*
+ * Jeffrey Josephs
+ * CS 1632
+ * Deliverable 2
+ * CitySim9000.java
+ */
+
 import java.util.Random;
 
 class CitySim9000 {
